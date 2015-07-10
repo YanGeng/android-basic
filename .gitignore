@@ -1,3 +1,7 @@
 /bin/
 /gen/
 */.gitignore
+*.class
+*.apk
+*.ap_
+*.dex
