@@ -29,7 +29,8 @@
             android:label="News">
 		</activity>
 		<activity android:name="BrowseNewsActivity" android:label="News info"></activity>
-		<activity android:name="LoginActivity" android:label="Longin Page"></activity>
+		<activity android:name="LoginActivity" android:label="Longin Page"></activity> webView
+		<activity android:name="webView" android:label="Brower"></activity>
     </application>
 
 </manifest>

@@ -62,19 +62,19 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-//		Button bn3 = (Button) findViewById(R.id.button3);
-//		bn3.setOnClickListener(new OnClickListener()
-//		{
-//			public void onClick(View v)
-//			{
-//				Intent intent = new Intent(MainActivity.this,
-//						webView.class);
-//				//		LoginActivity.class);
-//				// intent Activity
-//				startActivity(intent);
-//			}
-//		});
-//		
+		Button bn3 = (Button) findViewById(R.id.button_brower);
+		bn3.setOnClickListener(new OnClickListener()
+		{
+			public void onClick(View v)
+			{
+				Intent intent = new Intent(MainActivity.this,
+						webView.class);
+				//		LoginActivity.class);
+				// intent Activity
+				startActivity(intent);
+			}
+		});
+		
 //		Button bn4 = (Button) findViewById(R.id.button4);
 //		bn4.setOnClickListener(new OnClickListener()
 //		{
