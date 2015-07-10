@@ -22,30 +22,20 @@
             android:layout_height="wrap_content" />
         <!-- android:text="@string/hello_world" /> -->
 
-
-        <!--
-    <WebView
-        android:id="@+id/webView1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignParentBottom="true" />
-        -->
-
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button_current_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignRight="@+id/textView1"
             android:layout_below="@+id/textView1"
             android:onClick="clickHandler"
-            android:text="@string/button1" />
+            android:text="@string/button_current_time" />
 
         <DigitalClock
             android:id="@+id/digitalClock1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button1"
+            android:layout_below="@+id/button_current_time"
             android:layout_centerHorizontal="true" />
         
         <AnalogClock
@@ -74,7 +64,7 @@
             android:text="Start" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/start"
@@ -86,7 +76,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button2"
+            android:layout_below="@+id/button_login"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:text="@string/brower" />

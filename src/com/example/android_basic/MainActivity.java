@@ -50,18 +50,18 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-//		Button bn2 = (Button) findViewById(R.id.button2);
-//		bn2.setOnClickListener(new OnClickListener()
-//		{
-//			public void onClick(View v)
-//			{
-//				Intent intent = new Intent(MainActivity.this,
-//						LoginActivity.class);
-//				// intent Activity
-//				startActivity(intent);
-//			}
-//		});
-//		
+		Button bn2 = (Button) findViewById(R.id.button_login);
+		bn2.setOnClickListener(new OnClickListener()
+		{
+			public void onClick(View v)
+			{
+				Intent intent = new Intent(MainActivity.this,
+						LoginActivity.class);
+				// intent Activity
+				startActivity(intent);
+			}
+		});
+		
 //		Button bn3 = (Button) findViewById(R.id.button3);
 //		bn3.setOnClickListener(new OnClickListener()
 //		{
@@ -87,17 +87,17 @@ public class MainActivity extends Activity {
 //				startActivity(intent);
 //			}
 //		});
-//		
-//		Button bn_news = (Button) findViewById(R.id.button_news);
-//		bn_news.setOnClickListener(new OnClickListener()
-//		{
-//			@Override
-//			public void onClick(View v) {
-//				// TODO Auto-generated method stub
-//				Intent intent = new Intent(MainActivity.this, NewsActivity.class);
-//				startActivity(intent);
-//			}
-//		});
+		
+		Button bn_news = (Button) findViewById(R.id.button_news);
+		bn_news.setOnClickListener(new OnClickListener()
+		{
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, NewsActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
