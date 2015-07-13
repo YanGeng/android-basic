@@ -58,8 +58,10 @@ public class webView extends Activity {
 		sb.append("<body>");
 		sb.append("<h2> 欢迎您访问<a href=\"http://www.dianping.com\">"
 			+ "大众点评网</a></h2>");
-		sb.append("<h2> 欢迎您访问<a href=\"http://10.128.39.178:8080/ui/\">"
-				+ "TEST</a></h2>");
+		sb.append("<h2> 欢迎您访问<a href=\"http://192.168.0.105:8080/springSample/bootstrap.html\">"
+				+ "Bootstrap</a></h2>");
+		sb.append("<h2> 欢迎您访问<a href=\"http://www.baidu.com\">"
+				+ "百度</a></h2>");
 		sb.append("</body>");
 		sb.append("</html>");
 		// ʹ�ü򵥵�loadData�����ᵼ�����룬������Android API��Bug
